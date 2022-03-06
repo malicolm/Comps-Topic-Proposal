@@ -1,0 +1,54 @@
+\documentclass[10pt,twocolumn]{article} 
+
+\usepackage{oxycomps} % use the main oxycomps style file
+
+
+\pdfinfo{
+    /Title (Comps Topic Proposal)
+    /Author (Malcolm Holman)
+}
+
+\title{Comps Topic Proposal}
+
+\author{Malcolm Holman}
+\affiliation{Occidental College}
+\email{holmanm@oxy.edu}
+
+\begin{document}
+
+\maketitle
+
+\section{Problem Context}
+
+    The problem at hand is how nuanced training for indoor and outdoor rock climbing can be for different people. As a rock climber, I have faced frustrating plateaus that required more training to overcome than I knew how to implement at the time. Today, I have more knowledge about the basics, but I continue to train and would benefit from learning about new exercises This lack of knowledge is common for many beginner (and intermediate) climbers and is the first part of the problem I am trying to address. 
+
+	Being a beginner rock climber is a rewarding experience because most low grade, easier climbs can eventually be worked out with decent strength and poor technique. This stage is often short lived as people begin to want to climb harder problems/routes. Past a certain threshold of difficulty (usually ~V3), technique and strength begin to work together and brute force is not always an option. This is the first place many people begin to get frustrated but with some technique tips, one can get better without much strength training. During this stage, I often found myself watching videos and reading articles trying to piece together tips and tricks from different people across the internet. A climbing app could streamline this process by compiling some standard beginner technique mistakes and how to fix them. These tips can also extend beyond just beginner mistakes to provide intermediate and advanced climbers with more nuanced technique. 
+
+	As climbers enter the intermediate stages, often what prevents people from progressing to harder grades is strength, not technique. While there is always room to improve technique, many intermediate climbers are capable of explaining and understanding the technique needed to do a harder problem but may not have the strength to do so. This problem can directly be solved with climbing specific strength training, and is the second issue addressed by the app. Strength training for climbing is particularly challenging because of how sensitive peoples skin, fingers and finger tendons, wrists, and elbows are to injury and tweaks. As a result, a training plan that works for some people may be too strenuous or aggravate a sensitive spot for others. 
+	
+	The strength training portion of the app will be focused on workout creation, customization, and user interactions. The create feature would allow users to create their own workouts by choosing from a list of provided exercises as well as uploading custom exercises. User input custom exercises will allow for descriptions, photos, and videos to be uploaded along with them. Many existing climbing training apps can provide exercises and workouts but allow for little customization within the workouts given. This can be solved by having every provided workout allow for each exercise to be swapped individually with prompted alternative exercises that target the same muscle group or an exercise of the user’s choosing. Basic user interaction, such as following others and liking workouts, are also going to be implemented because climbing is typically a social activity. This creates opportunities for people to share workouts that they have made with friends and fellow climbers who can then use or modify the workout.
+	
+\section{Technical Background}
+
+    I have considered algorithmically generating workouts for people based on input criteria but I think that there are ethical concerns associated with the users risk of injury. It is a feature that could be implemented in the future. Without algorithmic workout generation, there is not much technically needed beyond mobile app development. I have worked with web apps in the past and I understand the basic workflow. For this project, since it is a mobile app not a web app, I will have to learn new things. I will be using react native and Firebase to build a mobile app that will be optimized for iPhone.
+
+    
+    I chose Firebase because it is a free database service that should be able to handle the amount of reading and writing that will occur while developing my project with the option to pay for more in the future. There is also ample documentation making it easier to pick up. I chose react because it is faster and more streamlined than vanilla JavaScript. 
+
+
+\section{Prior Work}
+
+    There are more plenty of climbing apps available and even more general fitness/workout apps but none have the same customization as the app being proposed. The most popular climbing training app on Apple’s iPhone app store (my target market) is Crimpd. Crimpd provides users with a handful of useful workouts as well as on-wall circuit training and paid professional training plan. The free workouts that are provided are curated by professional climbers so they are quite good, but to expand upon them you have to pay 13 dollars per month, which is too much. The app also lacks customization of workouts and does not have a timer. 
+
+	The closest apps to what I would like to build are Fitbod and Flex, both of which are general fitness apps, not specifically for climbing. Flex initially prompts the user for their goals and desired intensity and creates an initial workout based upon the input information. The best feature though is what they call “freestyle workouts” which allow the user to select from a large list of workouts that are in their database. The workouts can be broken down into sets, weight used, and duration. Fitbod is another app that I plan to draw inspiration from due to its modular workout design. It allows users to input the equipment that is available to them at their gym and recommends specific workouts accordingly. Following the creation of the workout users have the option to modify the amount of reps, duration, and weight of the exercise. There is also an option to swap the provided exercises for others in their database, similar to Flex.
+
+\section{Comps Topic Proposal}
+
+\subsection{Problem Context}
+
+\subsection{Technical Background}
+
+\subsection{Prior Work}	
+
+
+\end{document}
